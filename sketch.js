@@ -55,6 +55,9 @@ function keyPressed() {
   } else if (key == "b") {
     knn.addExample(logits, "Battery")
     console.log("Battery")
+  } else if (key == "s") {
+    knn.addExample(logits, "Screw")
+    console.log("Battery")
   } else if (key == "e") {
     knn.addExample(logits, "Empty")
     console.log("empty")
